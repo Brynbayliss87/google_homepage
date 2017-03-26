@@ -1,0 +1,70 @@
+header ul{
+	list-style-type: none;
+	margin: 00;
+	padding: 0;
+}
+
+header li{
+	display: inline;
+	padding: 14x, 16px;
+	margin-right:10px;
+	float: right;
+	color:#757575;
+}
+li:hover{
+	text-decoration: underline;
+}
+#googleimg {
+	text-align: center;
+	display: block;
+	margin-left: 17%;
+}
+#signin{
+	background-color: #4387fd;
+	border-radius: 5px;
+	color:white;
+}
+
+#buttons{
+	text-align: center;
+	border:0px;
+	border-style: none;
+	border-radius: 0px;
+	color:#757575;
+
+}
+input{
+	
+	width:35%;
+	height:5%;
+	margin:0;
+	
+}
+
+footer{
+
+	display:inline;
+	position:fixed;
+	bottom:0;
+}
+
+footer ul{
+	display: inline;
+}
+
+footer li{
+	display: inline;
+	padding: 14x, 16px;
+	margin-right:10px;
+	color:#757575;
+
+}
+#left{
+	float:left;
+}
+
+#right{
+	float:right;
+
+
+}
