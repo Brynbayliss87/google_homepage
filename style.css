@@ -1,6 +1,6 @@
 header ul{
 	list-style-type: none;
-	margin: 00;
+	margin: 0;
 	padding: 0;
 }
 
@@ -25,27 +25,42 @@ li:hover{
 	color:white;
 }
 
-#buttons{
+
+
+#search{
 	text-align: center;
-	border:0px;
-	border-style: none;
-	border-radius: 0px;
-	color:#757575;
 
 }
 input{
-	
-	width:35%;
-	height:5%;
-	margin:0;
-	
+	width:600px;
+}	
+
+
+#buttons{	
+	text-align: center;
 }
 
+.searchbuttons{
+    background-color: #f2f2f2;
+    color: #757575;
+    border: 1px solid #f2f2f2;
+    border-radius: 2px;
+}
+
+.searchbuttons:hover{
+	color:#222;
+	border:1px solid #757575;
+	
+
+}
 footer{
 
 	display:inline;
-	position:fixed;
+	position:absolute;
 	bottom:0;
+	right: 0;
+	left: 0;
+
 }
 
 footer ul{
